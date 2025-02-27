@@ -1,0 +1,309 @@
+﻿<!DOCTYPE html>
+<html>
+<title>Jack Giddens - Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body, h1, h2, h3, h4, h5, h6 {
+        font-family: "Raleway", sans-serif
+    }
+</style>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+    <!-- Sidebar/menu -->
+    <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar">
+        <br>
+        <div class="w3-container">
+            <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+                <i class="fa fa-remove"></i>
+            </a>
+            <img src="Images/ProfilePictureJack.jpg" style="width:100%;" class="w3-round"><br><br>
+            <h3><b>Jack Giddens</b></h3>
+            <!--<p class="w3-text-grey">Portfolio</p>-->
+            <a style="text-decoration: none; display: inline-block;" href="https://www.linkedin.com/in/jackadamgiddens/" target="_blank">
+                <i class="fa fa-linkedin w3-hover-opacity" style="font-size:24px;color: grey; margin-right: 5px" "></i>
+            </a>
+            <a style="text-decoration: none; display: inline-block;" href="https://github.com/jackgiddens" target="_blank">
+                <i class="fa fa-github w3-hover-opacity" style="font-size:24px;color: grey; margin-bottom: 24px;"></i>
+            </a>
+        </div>
+        <div class="w3-bar-block">
+            <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a>
+            <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a>
+            <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+        </div>
+        <div class="w3-container">
+            <br />
+            <h4>Pepeha</h4>
+            <p4>
+                Tēnā koutou katoa<br />
+                Ko Itari te whakapaparanga mai<br />
+                Ko Wellington te whenua tupu<br />
+                Ko Ōtautahi ahau e noho ana<br />
+                He ākonga au i Yoobee Colleges<br />
+                Ko Jack taku ingoa<br />
+                Tēnā koutou katoa<br />
+            </p4>
+        </div>
+    </nav>
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main" style="margin-left:300px">
+
+        <!-- Header -->
+        <header id="portfolio">
+            <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+            <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+            <div class="w3-container">
+                <br />
+                <h1><b>My Portfolio</b></h1>
+                <br>
+                <!--<div class="w3-section w3-bottombar w3-padding-16">
+                    <span class="w3-margin-right">Filter:</span>
+                    <button class="w3-button w3-black">ALL</button>
+                    <button class="w3-button w3-white"><i class="fa fa-diamond w3-margin-right"></i>Design</button>
+                    <button class="w3-button w3-white w3-hide-small"><i class="fa fa-photo w3-margin-right"></i>Photos</button>
+                    <button class="w3-button w3-white w3-hide-small"><i class="fa fa-map-pin w3-margin-right"></i>Art</button>
+                </div>-->
+            </div>
+        </header>
+
+        <div class="projects">
+            <!-- First Photo Grid-->
+            <div class="w3-row-padding">
+                <div class="w3-third w3-container w3-margin-bottom">
+                    <a href="naturalSelection.html">
+                        <img src="Images/NaturalSelection/NaturalSelectionMenu.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                    </a>
+                    <div class="w3-container w3-white">
+                        <p><b>Natural Selection: Survival of the Fittest</b></p>
+                        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                    </div>
+                </div>
+                <div class="w3-third w3-container w3-margin-bottom">
+                    <img src="Images/PuzzleGame/PuzzleGame.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                    <div class="w3-container w3-white">
+                        <p><b>Puzzle Game</b></p>
+                        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                    </div>
+                </div>
+                <div class="w3-third w3-container">
+                    <img src="Images/OneWayOut/OneWayOut.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                    <div class="w3-container w3-white">
+                        <p><b>One Way Out</b></p>
+                        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Second Photo Grid-->
+            <div class="w3-row-padding">
+                <div class="w3-third w3-container w3-margin-bottom">
+                    <img src="Images/KiwiBasket/KiwiBasketLogo.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                    <div class="w3-container w3-white">
+                        <p><b>Kiwi Basket</b></p>
+                        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                    </div>
+                </div>
+                <div class="w3-third w3-container w3-margin-bottom">
+                    <img src="Images/PizzaTrap/PizzaTrapHome.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                    <div class="w3-container w3-white">
+                        <p><b>Pizza Trap</b></p>
+                        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                    </div>
+                </div>
+                <div class="w3-third w3-container">
+                    <img src="Images/TaxiBetter/TaxiBetterMenu.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                    <div class="w3-container w3-white">
+                        <p><b>Taxi Better</b></p>
+                        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Images of Me
+        <div class="w3-row-padding w3-padding-16" id="about">
+            <div class="w3-col m6">
+                <img src="Images/Wanaka.JPEG" alt="Me" style="width:100%">
+            </div>
+            <div class="w3-col m6">
+                <img src="Images/Golf.JPEG" alt="Me" style="width:100%">
+            </div>
+        </div>-->
+        <!-- About Me -->
+        <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+            <div class="aboutMe w3-row" id="about">
+                <h3><b>About Me</b></h3>
+
+                <p>
+                    I have recently completed my Bachelor's degree in Software Engineering and I am actively seeking new opportunities in the IT sector with the goal of transitioning into full-time employment in 2025.
+                    <br /><br />
+                    During my time studying at Yoobee, I had the opportunity to apply my skills in practical projects, such as developing a taxi trip booking system using C++ and creating a shopping list system with Python, Flask, and SQLite. These projects, among others, allowed me to demonstrate my ability to bring real-world solutions to life.
+                    <br /><br />
+                    I am excited about the prospect of using my diverse skill set in a full-time role within an organisation. I bring honesty, reliability, and a strong work ethic as well as a proficiency in C++, Python, and game development using Unity and Unreal Engine 5.
+                </p>
+            </div>
+
+            <hr>
+
+            <div class="technicalSkills w3-row">
+                <h3><b>Technical Skills</b></h3>
+                <!-- Progress bars / Skills -->
+                <div class="w3-col m5">
+                    <p>Python</p>
+                    <div class="w3-grey">
+                        <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:80%">80%</div>
+                    </div>
+
+                    <p>C++</p>
+                    <div class="w3-grey">
+                        <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:75%">75%</div>
+                    </div>
+
+                    <p>Unreal Engine</p>
+                    <div class="w3-grey">
+                        <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:90%">90%</div>
+                    </div>
+
+                    <p>Html/CSS</p>
+                    <div class="w3-grey">
+                        <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:70%">70%</div>
+                    </div>
+                    <a href="Jack Giddens - CV - BNZ.pdf" download="Wanaka" target="_blank">
+                        <p>
+                            <button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom">
+                                <i class="fa fa-download w3-margin-right"></i>Download Resume
+                            </button>
+                        </p>
+                    </a>
+
+                </div>
+
+                <div class="w3-col m2"><p> </p></div>
+
+                <div class="w3-col m5">
+                    <p>Unity</p>
+                    <div class="w3-grey">
+                        <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:65%">65%</div>
+                    </div>
+
+                    <p>Git/GitHub</p>
+                    <div class="w3-grey">
+                        <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:80%">80%</div>
+                    </div>
+
+                    <p>SQLite</p>
+                    <div class="w3-grey">
+                        <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:65%">65%</div>
+                    </div>
+
+                    <p>Flask</p>
+                    <div class="w3-grey">
+                        <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:70%">70%</div>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="contact w3-row">
+                <!-- Contact Section -->
+                <div class="w3-container w3-padding-large w3-grey">
+                    <h3 id="contact"><b>Contact Me</b></h3>
+                    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+                        <div class="w3-third w3-dark-grey">
+                            <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+                            <p>jackgnz555@gmail.com</p>
+                        </div>
+                        <div class="w3-third w3-teal">
+                            <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+                            <p>Christchurch, NZ</p>
+                        </div>
+                        <div class="w3-third w3-dark-grey">
+                            <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+                            <p>022 011 9989</p>
+                        </div>
+                    </div>
+                    <!--
+    <hr class="w3-opacity">
+    <form action="send_email.php" method="post">
+        <div class="w3-section">
+            <label for="name">Name</label>
+            <input class="w3-input w3-border" type="text" id="firstName" name="name" required>
+        </div>
+        <div class="w3-section">
+            <label for="email">Email</label>
+            <input class="w3-input w3-border" type="email" id="email" name="email" required>
+        </div>
+        <div class="w3-section">
+            <label>Message</label>
+            <textarea class="w3-input w3-border" id="message" name="message" required></textarea>
+        </div>
+        <button type="submit" value="send" class="w3-button w3-black w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
+    </form>-->
+                </div>
+            </div>
+
+            <!-- Footer
+            <footer class="w3-container w3-padding-32 w3-dark-grey">
+                <div class="w3-row-padding">
+                    <div class="w3-third">
+                        <h3>FOOTER</h3>
+                        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+                    </div>
+
+                    <div class="w3-third">
+                        <h3>BLOG POSTS</h3>
+                        <ul class="w3-ul w3-hoverable">
+                            <li class="w3-padding-16">
+                                <img src="/w3images/workshop.jpg" class="w3-left w3-margin-right" style="width:50px">
+                                <span class="w3-large">Lorem</span><br>
+                                <span>Sed mattis nunc</span>
+                            </li>
+                            <li class="w3-padding-16">
+                                <img src="/w3images/gondol.jpg" class="w3-left w3-margin-right" style="width:50px">
+                                <span class="w3-large">Ipsum</span><br>
+                                <span>Praes tinci sed</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="w3-third">
+                        <h3>POPULAR TAGS</h3>
+                        <p>
+                            <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">London</span>
+                            <span class="w3-tag w3-grey w3-small w3-margin-bottom">IKEA</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">NORWAY</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">DIY</span>
+                            <span class="w3-tag w3-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Baby</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Family</span>
+                            <span class="w3-tag w3-grey w3-small w3-margin-bottom">News</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Clothing</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Shopping</span>
+                            <span class="w3-tag w3-grey w3-small w3-margin-bottom">Sports</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Games</span>
+                        </p>
+                    </div>
+
+                </div>
+            </footer>-->
+            <!-- End page content -->
+        </div>
+
+        <script>
+            // Script to open and close sidebar
+            function w3_open() {
+                document.getElementById("mySidebar").style.display = "block";
+                document.getElementById("myOverlay").style.display = "block";
+            }
+
+            function w3_close() {
+                document.getElementById("mySidebar").style.display = "none";
+                document.getElementById("myOverlay").style.display = "none";
+            }
+        </script>
+
+</body>
+</html>
