@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Portfolio - Kiwi Basket</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://use.typekit.net/chk7duy.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+    <!-- Sidebar/menu -->
+    <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar">
+        <br>
+        <div class="w3-container">
+            <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+                <i class="fa fa-remove"></i>
+            </a>
+            <img src="Images/ProfilePictureJack.jpg" style="width:100%;" class="w3-round"><br><br>
+            <h3><b>Jack Giddens</b></h3>
+            <!--<p class="w3-text-grey">Portfolio</p>-->
+            <a style="text-decoration: none; display: inline-block;" href="https://www.linkedin.com/in/jackadamgiddens/" target="_blank">
+                <i class="fa fa-linkedin w3-hover-opacity" style="font-size:24px;color: grey; margin-right: 5px" "></i>
+            </a>
+            <a style="text-decoration: none; display: inline-block;" href="https://github.com/jackgiddens" target="_blank">
+                <i class="fa fa-github w3-hover-opacity" style="font-size:24px;color: grey; margin-bottom: 24px;"></i>
+            </a>
+        </div>
+        <div class="w3-bar-block">
+            <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-home w3-margin-right"></i>HOME</a>
+        </div>
+        <div class="w3-container">
+            <br />
+            <h4>Pepeha</h4>
+            <p4>
+                Tēnā koutou katoa<br />
+                Ko Itari te whakapaparanga mai<br />
+                Ko Wellington te whenua tupu<br />
+                Ko Ōtautahi ahau e noho ana<br />
+                He ākonga au i Yoobee Colleges<br />
+                Ko Jack taku ingoa<br />
+                Tēnā koutou katoa<br />
+            </p4>
+        </div>
+    </nav>
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main" style="margin-left:300px">
+
+        <header>
+            <div class="w3-container">
+                <br />
+                <h1 style="text-align:center;">Kiwi Basket - Shopping List<br />Project</h1>
+
+                <p2 style="text-align:center;">
+                    <a href="https://github.com/jackgiddens/CS203-Shopping-List-System" target="_blank">
+                        <button class="w3-button w3-black w3-padding-large w3-round-xxlarge w3-margin-top w3-margin-bottom">
+                            <i class="fa fa-link w3-margin-right"></i>GitHub Link
+                        </button>
+                    </a>
+                </p2>
+
+                <h3 style="text-align:center;"><b>Tools & Technologies Used:</b></h3>
+                <h5 style="text-align:center;">Python Flask, HTML, CSS, SQLite, Git, Docker, Render, Postman, Visual Studio, Trello</h5>
+            </div>
+        </header>
+
+        <div class="w3-padding">
+            <br />
+            <h4 style="text-align:center;">App Demo:</h4>
+
+            <img src="Images/KiwiBasket/Main.png" style="display:block;margin-left: auto;margin-right: auto;width: 65%;">
+
+            <img src="Images/KiwiBasket/List.png" style="display:block;margin-left: auto;margin-right: auto;width: 65%;">
+
+            <img src="Images/KiwiBasket/Render.png" style="display:block;margin-left: auto;margin-right: auto;width: 65%;">
+
+            <img src="Images/KiwiBasket/List2.png" style="display:block;margin-left: auto;margin-right: auto;width: 65%;">
+        </div>
+
+        <script>
+            // Script to open and close sidebar
+            function w3_open() {
+                document.getElementById("mySidebar").style.display = "block";
+                document.getElementById("myOverlay").style.display = "block";
+            }
+
+            function w3_close() {
+                document.getElementById("mySidebar").style.display = "none";
+                document.getElementById("myOverlay").style.display = "none";
+            }
+        </script>
+
+</body>
+</html>

@@ -1,0 +1,69 @@
+body {
+    font-family: "museo-slab", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+b {
+    font-weight: 500;
+}
+
+p {
+    font-size: 1.2em;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+p2 {
+    font-size: 1em;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+h1 {
+    font-family: "museo-slab", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 4em;
+}
+
+h2 {
+    font-family: "museo-slab", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 3em;
+}
+
+h3 {
+    font-family: "museo-slab", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2em;
+}
+
+h4 {
+    font-family: "museo-slab", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5em;
+}
+
+h5 {
+    font-family: "museo-slab", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.17em;
+}
+
+h6 {
+    font-family: "museo-slab", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1em;
+}
