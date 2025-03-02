@@ -86,6 +86,11 @@
 
             <h4 style="text-align:center;">App Demo:</h4>
 
+            <video class="w3-padding" width="100%" controls>
+                <source src="Demos/KiwiBasketAppDemo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
             <p class="w3-padding" style="text-align:center;">
                 At the start of development, I wasn’t overly concerned with diving straight into the actual project. I spent a lot of time
                 understanding SQL databases and Flask. My first few commits involved tinkering with some class code and trying out modifications,
@@ -136,26 +141,26 @@
             <img src="Images/KiwiBasket/List.png" class="w3-padding" style="width:100%">
 
             <p class="w3-padding" style="text-align:center;">
-                One of the most difficult parts of the project was creating a function that could calculate the best supermarket based on the items in 
-                the user’s list. The data from the SupermarketsItems table came as a nested list, which made it a bit tricky to work with. I needed a 
-                flexible solution that could handle multiple supermarkets, not just a hard-coded if-else condition. I ended up using a dictionary to 
-                store prices for each supermarket, which allowed me to dynamically calculate the total price for each supermarket and return the lowest 
+                One of the most difficult parts of the project was creating a function that could calculate the best supermarket based on the items in
+                the user’s list. The data from the SupermarketsItems table came as a nested list, which made it a bit tricky to work with. I needed a
+                flexible solution that could handle multiple supermarkets, not just a hard-coded if-else condition. I ended up using a dictionary to
+                store prices for each supermarket, which allowed me to dynamically calculate the total price for each supermarket and return the lowest
                 price. It was a tricky problem to solve, but once I had it figured out, everything fell into place.
             </p>
 
             <img src="Images/KiwiBasket/Render.png" class="w3-padding" style="width:100%">
 
             <p class="w3-padding" style="text-align:center;">
-                In the final stages of development, I focused on tidying up the project. I added a delete list function, implemented some basic CSS 
-                styling using Bootstrap cards, and added validation for list creation. To make sure the app was polished and user-friendly, I also 
-                spent time fixing up the look and feel of the HTML pages. I hosted the app on Docker and Render, which made it accessible to anyone 
+                In the final stages of development, I focused on tidying up the project. I added a delete list function, implemented some basic CSS
+                styling using Bootstrap cards, and added validation for list creation. To make sure the app was polished and user-friendly, I also
+                spent time fixing up the look and feel of the HTML pages. I hosted the app on Docker and Render, which made it accessible to anyone
                 online. Finally, I did some code cleanup, fixing naming standards and adding comments for clarity.
             </p>
 
             <p class="w3-padding" style="text-align:center;">
-                By the end of the project, I had a fully functional shopping list application that not only allowed users to create and manage 
-                lists but also compared prices between different supermarkets to find the best deal. It was a rewarding experience to see the 
-                project evolve from just an idea into a working product, and it gave me valuable insights into working with databases, Flask, 
+                By the end of the project, I had a fully functional shopping list application that not only allowed users to create and manage
+                lists but also compared prices between different supermarkets to find the best deal. It was a rewarding experience to see the
+                project evolve from just an idea into a working product, and it gave me valuable insights into working with databases, Flask,
                 and web development in general.
             </p>
 
